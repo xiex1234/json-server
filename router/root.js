@@ -2,11 +2,12 @@ const jsonServer = require("json-server");
 const server = jsonServer.create();
 const path = require("path");
 const Login = jsonServer.router(path.join(__dirname, "../DB/db2.json"));
-
+// 导入中间件
 const midd = require("../middlewares");
+// 使用中间件
 server.use(midd);
 
-server.get("/user2/echo", (req, res) => {
+server.get("/root/echo", (req, res) => {
   res.jsonp({
     data: Login.db.users,
     code: 200,
@@ -31,6 +32,7 @@ Login.render = (req, res) => {
   });
 };
 
-server.use("/user2", Login);
+// 配置根路径
+server.use("/root", Login);
 
 module.exports = server;

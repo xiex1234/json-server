@@ -5,7 +5,5 @@ module.exports = () => {
     data.userInfo.push({ id: i, name: `user${i}` });
   }
 
-  // console.log(data, "dagdj");
-
   return data;
 };
