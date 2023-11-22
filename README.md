@@ -19,7 +19,7 @@ http://localhost:8888/user/login
 
 
 
-localhost可以换成你的ip地址，也可以用域名，如：
+localhost可以换成你的ip地址，如：
 
 http://192.168.1.100:8888/user/login
 ```
