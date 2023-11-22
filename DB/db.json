@@ -1,0 +1,55 @@
+{
+  "login": [
+    {
+      "id": 1,
+      "avatar": "./images/1.jpg",
+      "name": "谢欣",
+      "phone": "13800138000",
+      "age": 22,
+      "sex": "男",
+      "datetime": "2022-12-19 20:02:34",
+      "password": "12345678"
+    },
+    {
+      "id": "TADTWPQ1gitpIu12coJKU",
+      "phone": "13245714455",
+      "password": "123456",
+      "datetime": "2023/11/19 15:14:33",
+      "avatar": "",
+      "age": 93,
+      "sex": "男",
+      "name": 3
+    },
+    {
+      "id": "ihmHJ8_8ufEpN3ct1RpR0",
+      "phone": "13123132132",
+      "password": "13123132",
+      "datetime": "2023/11/21 11:14:02",
+      "avatar": "",
+      "age": 58,
+      "sex": "男",
+      "name": 74,
+      "createdAt": 1700536443064
+    },
+    {
+      "id": "tn5_4I9NKh0B68y_xqxxQ",
+      "phone": "13213231131",
+      "password": "qqwweerr12",
+      "datetime": "2023/11/22 08:47:21",
+      "avatar": "",
+      "age": 88,
+      "sex": "男",
+      "name": 84,
+      "createdAt": 1700614041568
+    }
+  ],
+  "code": {
+    "code": "123456"
+  },
+  
+  "echo": {
+    "echo": "121212212212",
+    "aaaa": "121212212212",
+    "ass": "121212212212"
+  }
+}
