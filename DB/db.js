@@ -5,5 +5,10 @@ module.exports = () => {
     data.userInfo.push({ id: i, name: `user${i}` });
   }
 
-  return data;
+  return {
+    userInfo: data.userInfo,
+    age: {
+      ppp:"shjaashhs"
+    },
+  };
 };

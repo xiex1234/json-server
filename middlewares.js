@@ -1,6 +1,7 @@
 module.exports = (req, res, next) => {
   // 获取token
   const token = req.headers.authorization;
+  console.log("token", token);
 
   if (
     req.method === "POST" ||

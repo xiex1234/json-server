@@ -3,6 +3,11 @@ const server = jsonServer.create();
 const path = require("path");
 const Login = jsonServer.router(path.join(__dirname, "../DB/db.json"));
 
+// let mitt = require("../middlewares.js")
+
+
+// server.use(mitt);
+
 // 拦截请求二次处理
 // server.get("/user/login", (req, res) => {
 //   console.log(111);
